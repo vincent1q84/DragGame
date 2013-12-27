@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0F47F5186D9FC500B4ED77 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0F47F3186D9FC500B4ED77 /* AboutViewController.m */; };
+		CE0F47F6186D9FC500B4ED77 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0F47F4186D9FC500B4ED77 /* AboutViewController.xib */; };
 		CE92676E186C486F00EABC38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE92676D186C486F00EABC38 /* Foundation.framework */; };
 		CE926770186C486F00EABC38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE92676F186C486F00EABC38 /* CoreGraphics.framework */; };
 		CE926772186C486F00EABC38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE926771186C486F00EABC38 /* UIKit.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE0F47F2186D9FC500B4ED77 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		CE0F47F3186D9FC500B4ED77 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		CE0F47F4186D9FC500B4ED77 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 		CE92676A186C486F00EABC38 /* DragGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE92676D186C486F00EABC38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE92676F186C486F00EABC38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +122,9 @@
 				CE92677F186C486F00EABC38 /* Main.storyboard */,
 				CE926782186C486F00EABC38 /* DragGameViewController.h */,
 				CE926783186C486F00EABC38 /* DragGameViewController.m */,
+				CE0F47F2186D9FC500B4ED77 /* AboutViewController.h */,
+				CE0F47F3186D9FC500B4ED77 /* AboutViewController.m */,
+				CE0F47F4186D9FC500B4ED77 /* AboutViewController.xib */,
 				CE926785186C486F00EABC38 /* Images.xcassets */,
 				CE926774186C486F00EABC38 /* Supporting Files */,
 			);
@@ -231,6 +239,7 @@
 			files = (
 				CE926786186C486F00EABC38 /* Images.xcassets in Resources */,
 				CE926778186C486F00EABC38 /* InfoPlist.strings in Resources */,
+				CE0F47F6186D9FC500B4ED77 /* AboutViewController.xib in Resources */,
 				CE926781186C486F00EABC38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +261,7 @@
 			files = (
 				CE926784186C486F00EABC38 /* DragGameViewController.m in Sources */,
 				CE92677E186C486F00EABC38 /* DragGameAppDelegate.m in Sources */,
+				CE0F47F5186D9FC500B4ED77 /* AboutViewController.m in Sources */,
 				CE92677A186C486F00EABC38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +471,7 @@
 				CE92679E186C486F00EABC38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE92679F186C486F00EABC38 /* Build configuration list for PBXNativeTarget "DragGameTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +480,7 @@
 				CE9267A1186C486F00EABC38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -23,6 +23,17 @@
 		CE92678F186C486F00EABC38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE926771186C486F00EABC38 /* UIKit.framework */; };
 		CE926797186C486F00EABC38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE926795186C486F00EABC38 /* InfoPlist.strings */; };
 		CE926799186C486F00EABC38 /* DragGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE926798186C486F00EABC38 /* DragGameTests.m */; };
+		CEA85D28186DF62D0036A83D /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA85D1F186DF62D0036A83D /* Background.png */; };
+		CEA85D29186DF62D0036A83D /* Button-Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA85D20186DF62D0036A83D /* Button-Highlighted.png */; };
+		CEA85D2A186DF62D0036A83D /* Button-Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA85D21186DF62D0036A83D /* Button-Normal.png */; };
+		CEA85D2B186DF62D0036A83D /* SliderThumb-Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA85D22186DF62D0036A83D /* SliderThumb-Highlighted.png */; };
+		CEA85D2C186DF62D0036A83D /* SliderThumb-Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA85D23186DF62D0036A83D /* SliderThumb-Normal.png */; };
+		CEA85D2D186DF62D0036A83D /* SliderTrackLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA85D24186DF62D0036A83D /* SliderTrackLeft.png */; };
+		CEA85D2E186DF62D0036A83D /* SliderTrackRight.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA85D25186DF62D0036A83D /* SliderTrackRight.png */; };
+		CEA85D2F186DF62D0036A83D /* StartOverButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA85D26186DF62D0036A83D /* StartOverButton.png */; };
+		CEA85D30186DF62D0036A83D /* StartOverIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA85D27186DF62D0036A83D /* StartOverIcon.png */; };
+		CEA85D34186DFF220036A83D /* DragGame.html in Resources */ = {isa = PBXBuildFile; fileRef = CEA85D33186DFF220036A83D /* DragGame.html */; };
+		CEA85D38186E08480036A83D /* 卡农.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEA85D37186E08480036A83D /* 卡农.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +69,17 @@
 		CE926794186C486F00EABC38 /* DragGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragGameTests-Info.plist"; sourceTree = "<group>"; };
 		CE926796186C486F00EABC38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE926798186C486F00EABC38 /* DragGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragGameTests.m; sourceTree = "<group>"; };
+		CEA85D1F186DF62D0036A83D /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		CEA85D20186DF62D0036A83D /* Button-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Highlighted.png"; sourceTree = "<group>"; };
+		CEA85D21186DF62D0036A83D /* Button-Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Normal.png"; sourceTree = "<group>"; };
+		CEA85D22186DF62D0036A83D /* SliderThumb-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb-Highlighted.png"; sourceTree = "<group>"; };
+		CEA85D23186DF62D0036A83D /* SliderThumb-Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb-Normal.png"; sourceTree = "<group>"; };
+		CEA85D24186DF62D0036A83D /* SliderTrackLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderTrackLeft.png; sourceTree = "<group>"; };
+		CEA85D25186DF62D0036A83D /* SliderTrackRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderTrackRight.png; sourceTree = "<group>"; };
+		CEA85D26186DF62D0036A83D /* StartOverButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartOverButton.png; sourceTree = "<group>"; };
+		CEA85D27186DF62D0036A83D /* StartOverIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartOverIcon.png; sourceTree = "<group>"; };
+		CEA85D33186DFF220036A83D /* DragGame.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DragGame.html; sourceTree = "<group>"; };
+		CEA85D37186E08480036A83D /* 卡农.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "卡农.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +139,9 @@
 		CE926773186C486F00EABC38 /* DragGame */ = {
 			isa = PBXGroup;
 			children = (
+				CEA85D37186E08480036A83D /* 卡农.mp3 */,
+				CEA85D33186DFF220036A83D /* DragGame.html */,
+				CEA85D1E186DF62D0036A83D /* images */,
 				CE92677C186C486F00EABC38 /* DragGameAppDelegate.h */,
 				CE92677D186C486F00EABC38 /* DragGameAppDelegate.m */,
 				CE92677F186C486F00EABC38 /* Main.storyboard */,
@@ -158,6 +183,22 @@
 				CE926795186C486F00EABC38 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA85D1E186DF62D0036A83D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CEA85D1F186DF62D0036A83D /* Background.png */,
+				CEA85D20186DF62D0036A83D /* Button-Highlighted.png */,
+				CEA85D21186DF62D0036A83D /* Button-Normal.png */,
+				CEA85D22186DF62D0036A83D /* SliderThumb-Highlighted.png */,
+				CEA85D23186DF62D0036A83D /* SliderThumb-Normal.png */,
+				CEA85D24186DF62D0036A83D /* SliderTrackLeft.png */,
+				CEA85D25186DF62D0036A83D /* SliderTrackRight.png */,
+				CEA85D26186DF62D0036A83D /* StartOverButton.png */,
+				CEA85D27186DF62D0036A83D /* StartOverIcon.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +280,19 @@
 			files = (
 				CE926786186C486F00EABC38 /* Images.xcassets in Resources */,
 				CE926778186C486F00EABC38 /* InfoPlist.strings in Resources */,
+				CEA85D2A186DF62D0036A83D /* Button-Normal.png in Resources */,
+				CEA85D2D186DF62D0036A83D /* SliderTrackLeft.png in Resources */,
+				CEA85D34186DFF220036A83D /* DragGame.html in Resources */,
+				CEA85D28186DF62D0036A83D /* Background.png in Resources */,
+				CEA85D29186DF62D0036A83D /* Button-Highlighted.png in Resources */,
 				CE0F47F6186D9FC500B4ED77 /* AboutViewController.xib in Resources */,
+				CEA85D2E186DF62D0036A83D /* SliderTrackRight.png in Resources */,
+				CEA85D2F186DF62D0036A83D /* StartOverButton.png in Resources */,
+				CEA85D38186E08480036A83D /* 卡农.mp3 in Resources */,
+				CEA85D30186DF62D0036A83D /* StartOverIcon.png in Resources */,
 				CE926781186C486F00EABC38 /* Main.storyboard in Resources */,
+				CEA85D2C186DF62D0036A83D /* SliderThumb-Normal.png in Resources */,
+				CEA85D2B186DF62D0036A83D /* SliderThumb-Highlighted.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

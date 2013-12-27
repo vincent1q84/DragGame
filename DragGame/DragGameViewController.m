@@ -43,7 +43,7 @@
 
 -(void)playBackgroundMusic{
     
-    NSString *musicPath =[[NSBundle mainBundle]pathForResource:@"no" ofType:@"mp3"];
+    NSString *musicPath =[[NSBundle mainBundle]pathForResource:@"卡农" ofType:@"mp3"];
     NSURL *url = [NSURL fileURLWithPath:musicPath];
     NSError *error;
     
@@ -88,7 +88,7 @@
     [self playBackgroundMusic];
     
     
-    //set slider
+    //美化滑动条
     
     
     UIImage *thumbImageNormal = [UIImage imageNamed:@"SliderThumb-Normal"];
@@ -137,7 +137,7 @@
     //添加过渡效果
     CATransition *transition = [CATransition animation];
     transition.type = kCATransitionFade;
-    transition.duration = 1;
+    transition.duration = 3;
     transition.timingFunction  = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     
     

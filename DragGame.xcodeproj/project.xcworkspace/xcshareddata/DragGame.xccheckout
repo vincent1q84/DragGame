@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B15E19D7-7375-4118-A6E3-1D592CDE1156</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DragGame</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4DB98CC2-D545-4C3A-A585-0BEED8AFC799</key>
+		<string>https://github.com/vincent1q84/DragGame.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DragGame.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4DB98CC2-D545-4C3A-A585-0BEED8AFC799</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vincent1q84/DragGame.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4DB98CC2-D545-4C3A-A585-0BEED8AFC799</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4DB98CC2-D545-4C3A-A585-0BEED8AFC799</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DragGame</string>
+		</dict>
+	</array>
+</dict>
+</plist>

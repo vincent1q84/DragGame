@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DragGameViewController : UIViewController
 @interface DragGameViewController : UIViewController<UIAlertViewDelegate>
-@property(strong, nonatomic) IBOutlet UISlider *slider;
+
 @end
